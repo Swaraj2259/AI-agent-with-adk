@@ -30,10 +30,14 @@ parent_folder/
 4. Defined root agent and start integrating tools and services!
 5. Run project with `adk web`
 
-Note: ElevenLabs integration will need ffmpeg
-1. Download ffmpeg from here: https://ffmpeg.org/download.html#build-windows
-2. Choose build, install via CLI: `winget install ffmpeg`
-4. Check installation via command line: ffmpeg -version
-5. Add ffmpeg to scripts
-- `where ffmpeg` to get installation folder
-- Copy files to Scripts folder
+### Once Prerequisites are Done, Type `adk web`:
+![ADK Web Status Image](adk_web.png)
+
+### ADK UI
+
+The ADK UI provides a user-friendly interface for interacting with the agent and its services.
+
+![ADK UI](adk-ui.png) 
+
+You can access the UI by running the project and navigating to the provided URL in your browser.
+
